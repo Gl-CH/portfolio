@@ -2,8 +2,8 @@
 .header{
     background-color: #292929;
     border-radius:0 0 30px 30px;
-    width: 100%;
-    height: 25%;
+    max-width: 98%; /* Leaves some space */
+    margin: 0 auto; /* Centers the header */
     outline-style: inset;
     outline-color: #BB86FC;
     outline-width: 2px;
@@ -55,6 +55,8 @@
     outline-style: inset;
     outline-color: #BB86FC;
     outline-width: 2px;
+    max-width: 98%; /* Leaves some space */
+    margin: 0 auto; /* Centers the header */
   
 }
 
@@ -100,7 +102,7 @@ ul > ul
 
 #fullspan-box
 {
-    width: 100%;
+    width: 99%;
     height: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
